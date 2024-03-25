@@ -4,7 +4,7 @@ default: &default
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   username: postgres
   password: 4SuTnBOnZCMsVZLTZ9pOK4UEHRs5csjDGrW5FrEVfsZ91gQiHjT0uvcER8tcVcPX
-  host: l808wgw.108.174.58.142.sslip.io
+  host: 172.19.0.6
   port: 5432
 
 development:
