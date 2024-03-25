@@ -15,4 +15,4 @@ test:
   database: blog52_development
 production:
   <<: *default
-  database: blog52_development
+  database: blog52_prod
