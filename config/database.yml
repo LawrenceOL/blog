@@ -4,7 +4,7 @@ default: &default
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   username: postgres
   password: 4SuTnBOnZCMsVZLTZ9pOK4UEHRs5csjDGrW5FrEVfsZ91gQiHjT0uvcER8tcVcPX
-  host: ENV["DB_HOST"]
+  host: <%= ENV["DB_HOST"] %>
   port: 5432
 
 development:
